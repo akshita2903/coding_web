@@ -1,14 +1,39 @@
 # coding_web
-t is a chrome extension which when click shows you list of coding wesites where you can practise your coding skills
-#To enable extension on your chrome 
-1-fork <a href="https://github.com/akshita2903/Coding_Websites">this</a> repository </br> 
-2-clone it
-'''
-git clone
-'''
-3-cd Coding_Websites<br> 
-4-Open chrome browser<br> 
-5-select extensions<br>
-6-check developer mode on<br>
-7-Unpack extensions<br> 
-8-upload this directory<br>
+It is a chrome extension which when click shows you list of coding wesites where you can practise your coding skills
+## To enable extension on your google chrome 
+**1.** Fork [this]("https://github.com/akshita2903/Coding_Web")repository </br> 
+**2** Clone the forked Repository
+
+```
+it clone --depth 1 https://github.com/<your_name>/Coding_Web.git
+```
+
+**3.** Navigate to the project directory :file_folder: .
+
+```
+cd Coding_Web
+
+```
+
+**4.** Add a reference(remote) to the original repository.
+
+```
+git remote add upstream https://github.com/akshita2903/Coding_Web
+```
+
+**5.** Check the remotes for this repository.
+```
+git remote -v
+```
+
+**6.** Always take a pull from the upstream repository to your master branch to keep it at par with the main project(updated repository).
+
+```
+git pull upstream main
+```
+##Enabling Extension
+**1** Open chrome extension [click]("https://chrome.google.com/webstore/category/extensions")
+**2** Sign in using your google account
+**3** Check the Developer Mode <b>OR</b> Switch on the Developer Mode
+**4** Click on unpacked extension
+**5** Upload the folder that contains this forked repository.
