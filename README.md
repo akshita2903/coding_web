@@ -2,7 +2,10 @@
 t is a chrome extension which when click shows you list of coding wesites where you can practise your coding skills
 #To enable extension on your chrome 
 1-fork <a href="https://github.com/akshita2903/Coding_Websites">this</a> repository </br> 
-2-clone it<br> 
+2-clone it
+'''
+git clone
+'''
 3-cd Coding_Websites<br> 
 4-Open chrome browser<br> 
 5-select extensions<br>
