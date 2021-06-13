@@ -1,7 +1,7 @@
 # coding_web
 It is a chrome extension which when click shows you list of coding wesites where you can practise your coding skills
 # To enable extension on your google chrome 
-** Ignore/Delete the Chrome Extension folder if get cloned to your local computer
+** Ignore/Delete the Chrome Extension folder and images folder if get cloned to your local computer
 
 **1.**  Fork [this](https://github.com/akshita2903/Coding_Web) repository 
 
