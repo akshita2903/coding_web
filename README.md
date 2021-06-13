@@ -33,14 +33,17 @@ git pull upstream master
 ```
 # Enabling Extension
 
-**1.** Open chrome extension [click](https://chrome://extensions/)
-)
+**1.** Open chrome extension 
+<img src="images/extensionss">
+
 
 **2.** Sign in using your google account.
 
 **3.** Check the Developer Mode <b>OR</b> Switch on the Developer Mode.
+<img src="images/devlopermode">
 
 **4** Click on unpacked extension.
+          <img src="images/unpacked">
 
 **5.** Upload the folder that contains this forked repository.
 
