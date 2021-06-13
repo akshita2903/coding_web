@@ -33,7 +33,7 @@ git pull upstream master
 ```
 # Enabling Extension
 
-**1.** Open chrome extension [click](chrome://extensions/)
+**1.** Open chrome extension [click](https://chrome://extensions/)
 )
 
 **2.** Sign in using your google account.
