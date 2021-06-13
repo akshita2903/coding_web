@@ -36,10 +36,13 @@ git checkout -b <your_branch_name>
 
 ```
 **8.** Make changes
+
 **9** Git push o -u  <your_branch_name>
+
 # Enabling Extension
 
 **1.** Open chrome extension 
+
 <img src="images/extensionss.png">
 
 
