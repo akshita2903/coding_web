@@ -7,7 +7,7 @@ It is a chrome extension which when click shows you list of coding wesites where
 
 **2** Clone the forked Repository
 ```
-git clone --depth 1 https://github.com/<your_name>/Coding_Web.git
+git clone --depth 1 https://github.com/<your_github_username>/Coding_Web.git
 ```
 
 **3.** Navigate to the project directory :file_folder: .
