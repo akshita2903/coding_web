@@ -1,6 +1,7 @@
 ﻿<html>
     <head>
         <title>WEB_APP</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="undefined" crossorigin="anonymous">
 <style>
     html,body{
@@ -67,6 +68,37 @@ color:white;
     .flex.icons{
 font-size:50px;
     }
+  input{
+      width:384px;
+  }
+  #srcbtn{
+    position: absolute;
+    left:360px;
+  top: 203px;
+ 
+  border-radius: 50%;
+  border: 0;
+  color:black;
+  width: 19px;
+  height: 19px;
+  outline: 0;
+  }
+  #srcbtn:hover{
+      color:green;
+      transition: 0.2s ease-in-out;
+  }
+  table, th, td {
+  
+  border: 1px solid black;
+  
+}
+
+/*#show #shows #s #sh{
+    visibility:hidden;
+}*/
+#show_table{
+    visibility:hidden;
+}
 
 </style>
 
@@ -110,8 +142,33 @@ font-size:50px;
         </a>
     </div>
  </div>
+ <div class="modal-content">
+    <p><i><b>Search for time and Space complexities</b></i></p>
+</div>
+<div class="search_bar">
+    <input type="text" id="inputs" placeholder="Enter algortihm">
+    <button id="srcbtn" type="submit" ><i class="fa fa-search"></i></button>   
+</div>
+<div id="show_table">
+    <table id="show">
+    <tr id="shows">
+        <th id="sh">Algo Name:</th>
+        <th id="sh">Best Case:</th>
+        <th>Average Case:</th>
+        <th>Worst Case:</th>
+    </tr>
+    <tr id="shows"> 
+        <td id="s">Buinary Search</td>
+        <td id="s">O(logn)</td>
+        <td id="s">O(logn)</td>
+        <td id="s">O(n)</td>
+    </tr>
+</table>
+</div>
+
  </div>
  </body>
  <script src="popup.js"></script>
+ <script src="time_complexity/sortings.js"></script>
     </html>
 
