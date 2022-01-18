@@ -30,14 +30,14 @@ git remote -v
 ```
 git pull upstream master
 ```
-**7.**Now make new branch other than master
+**7.** Now make new branch other than master
 ```
 git checkout -b <your_branch_name>
 
 ```
 **8.** Make changes
 
-**9** Git push o -u  <your_branch_name>
+**9** Git push origin -u  <your_branch_name>
 
 # Enabling Extension
 
